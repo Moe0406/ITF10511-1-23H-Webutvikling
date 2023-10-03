@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 /* Reset CSS */
 * {
     margin: 0;
@@ -7,13 +9,13 @@
 
 /* Basisstiler */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
-    background-color: #333;
+    background-color: #1b1b1b;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -23,8 +25,10 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
+
 }
+
 
 main {
     padding: 20px;
