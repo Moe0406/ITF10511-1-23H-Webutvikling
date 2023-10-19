@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/styles.css">
+      <title>Sportfoten</title>
+   </head>
+   <body>
+      <header>
+         <ul class="top-links">
+            <li><a href="kundeservice.html">Kundeservice</a></li>
+            <li><a href="#">Om oss</a></li>
+         </ul>
+         <nav class="navbar">
+            <h1 class="logo">
+               <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </h1>
+            <div class="search">
+               <input type="text" placeholder="Søk">
+               <button><img src="img/search.png" alt="Search Icon"></button>
+            </div>
+            <ul class="actions">
+               <li><a href="#"><img src="img/user.png" alt="User Icon"></a></li>
+               <li><a href="#"><img src="img/cart.png" alt="Cart Icon"></a></li>
+               <li><a href="#"><img src="img/heart.png" alt="Favorite Icon"></a></li>
+            </ul>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="categories">
+               <li><a href="#">Nyheter</a></li>
+               <li><a href="#">Salg</a></li>
+               <li><a href="#">Gavekort</a></li>
+               <li><a href="#">Damesko</a></li>
+               <li><a href="#">Herresko</a></li>
+               <li><a href="#">Barnesko</a></li>
+               <li><a href="#">Basketballsko</a></li>
+               <li><a href="#">Løpesko</a></li>
+               <li><a href="#">Fotballsko</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="main-produktside">
+         <a href="#">
+         <img class="chat" src="img/chat.png" alt="chat">
+         </a>
+         <!-- start: Kode for slider, hentet fra https://shorturl.at/jktQ1 av George Martsoukos. denn koden er modifisert og tilpasset siden min -->    
+         <input type="radio" id="image1" name="image" checked>
+         <input type="radio" id="image2" name="image">
+         <input type="radio" id="image3" name="image">
+         <input type="radio" id="image4" name="image">
+         <div class="container">
+            <div class="featured-wrapper">
+               <ul class="featured-list">
+                  <li>
+                     <figure>
+                        <img src="img/produkt1.png" alt="">
+                     </figure>
+                  </li>
+                  <li>
+                     <figure>
+                        <img src="img/produkt1-90deg.png" alt="">
+                     </figure>
+                  </li>
+                  <li>
+                     <figure>
+                        <img src="img/produkt1-180deg.png" alt="">
+                     </figure>
+                  </li>
+                  <li>
+                     <figure>
+                        <img src="img/produkt1-270deg.png" alt="">
+                     </figure>
+                  </li>
+               </ul>
+               <ul class="arrows">
+                  <li>
+                     <label for="image1"></label>
+                  </li>
+                  <li>
+                     <label for="image2"></label>
+                  </li>
+                  <li>
+                     <label for="image3"></label>
+                  </li>
+                  <li>
+                     <label for="image4"></label>
+                  </li>
+               </ul>
+               <ul class="dots">
+                  <li>
+                     <label for="image1"></label>
+                  </li>
+                  <li>
+                     <label for="image2"></label>
+                  </li>
+                  <li>
+                     <label for="image3"></label>
+                  </li>
+                  <li>
+                     <label for="image4"></label>
+                  </li>
+               </ul>
+            </div>
+            <ul class="thumb-list">
+               <li>
+                  <label for="image1">
+                  <img src="img/produkt1.png" alt="">
+                  <span class="outer">
+                  <span class="inner"></span>
+                  </span>
+                  </label>
+               </li>
+               <li>
+                  <label for="image2">
+                  <img src="img/produkt1-90deg.png" alt="">
+                  <span class="outer">
+                  <span class="inner"></span>
+                  </span>
+                  </label>
+               </li>
+               <li>
+                  <label for="image3">
+                  <img src="img/produkt1-180deg.png" alt="">
+                  <span class="outer">
+                  <span class="inner"></span>
+                  </span>
+                  </label>
+               </li>
+               <li>
+                  <label for="image4">
+                  <img src="img/produkt1-270deg.png" alt="">
+                  <span class="outer">
+                  <span class="inner"></span>
+                  </span>
+                  </label>
+               </li>
+            </ul>
+         </div>
+         <!-- Slutt: Kode for slider, hentet fra https://shorturl.at/jktQ1 av George Martsoukos-->    
+         <!-- koden er modifisert og tilpasset siden min -->
+         <section class="product-info">
+            <h2>Produkt 1</h2>
+            <p class="produkt-beskrivelse">Optimal ytelse på banen. Våre lette og stilige fotballsko gir deg overlegen kontroll og grep uansett underlag. 
+               Spill med selvtillit og presisjon. Velg din modell i dag og hev spillet ditt.
+            </p>
+            <p class="produkt-pris">999 kr inkl. mva.</p>
+            <select name="size" id="size">
+               <option value="velg">Velg størrelse</option>
+               <option value="45">45</option>
+               <option value="44">44</option>
+               <option value="43">43</option>
+               <option value="42">42</option>
+            </select>
+            <ul class="buy-container">
+               <li>
+                  <button class="buy-button">Kjøp nå</button>
+                  <a href="#"><img src="img/heart.png" alt="Favorite Icon"></a>
+               </li>
+            </ul>
+            <ul class="wrapper">
+               <li>
+                  <input type="checkbox" id="liste-detaljer-1">
+                  <label for="liste-detaljer-1" class="first">
+                  <img src="img/down-arrow.png" alt="Materiale-&-vedlikehold"> Materiale & vedlikehold 
+                  </label>
+                  <ul>
+                     <li><b>Overmateriale:</b> Lær og tekstil</li>
+                     <li><b>Innermateriale:</b> Tekstil</li>
+                     <li><b>Dekksåle:</b> Tekstil</li>
+                     <li><b>Såle:</b> Syntentisk materiale</li>
+                     <li><b>Vedlikeholdsråd:</b> Vennligst impregner før bruk</li>
+                  </ul>
+               </li>
+               <li>
+                  <input type="checkbox" id="liste-detaljer-2">
+                  <label for="liste-detaljer-2">  
+                  <img src="img/down-arrow.png" alt="Produktdetaljer"> Produktdetaljer
+                  </label>
+                  <ul>
+                     <li><b>Skotupp:</b> Rund</li>
+                     <li><b>Hælform:</b> Flat</li>
+                     <li><b>Lukking:</b> Snøring</li>
+                     <li><b>Detaljer:</b> Cut-outs</li>
+                     <li><b>Artikkelnummer:</b> FB12345</li>
+                  </ul>
+               </li>
+               <li>
+                  <input type="checkbox" id="liste-detaljer-3">
+                  <label for="liste-detaljer-3" class="last">
+                  <img src="img/down-arrow.png" alt="Passform">Passform
+                  </label>
+                  <ul>
+                     <li><b>Skovidde:</b> Middels</li>
+                     <li><b>Hælhøyde:</b> Uten hæl</li>
+                  </ul>
+               </li>
+            </ul>
+         </section>
+         <ul class="prodects">
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+            <li>
+               <a href="produktside.html" class="product-link">
+                  <section class="product-content">
+                     <h2>Produkt 1</h2>
+                     <img src="img/produkt1.png" alt="shoe">
+                     <p>Dette er produkt 1 beskrivelse.</p>
+                     <p>Pris: 999.-</p>
+                  </section>
+               </a>
+            </li>
+         </ul>
+      </main>
+      <footer class="fa">
+         <article class="fl">
+            <h2>Snareveier</h2>
+            <ul>
+               <li><a href="#">Min side</a></li>
+               <li><a href="#">Orderoversikt</a></li>
+               <li><a href="#">Gavekort</a></li>
+               <li><a href="#">Personopplysninger</a></li>
+            </ul>
+         </article>
+         <article class="fl">
+            <h2>Informasjon</h2>
+            <ul>
+               <li><a href="#">Salgbetingilser</a></li>
+               <li><a href="#">Nytt på lager</a></li>
+               <li><a href="#">Merker/produsent</a></li>
+               <li><a href="#">Om Oss</a></li>
+            </ul>
+         </article>
+         <article class="fl">
+            <h2>Support</h2>
+            <ul>
+               <li><a href="#">Kontakt Oss</a></li>
+               <li><a href="#">Spørsmål & svar</a></li>
+               <li><a href="#">Reklamasjon og garanti</a></li>
+            </ul>
+         </article>
+         <p>Designed by Mohammed Al-Ouda. Icons & Illustration by <a href="https://icons8.com" target="_blank">Icons8.com</a>.</p>
+      </footer>
+   </body>
+</html>

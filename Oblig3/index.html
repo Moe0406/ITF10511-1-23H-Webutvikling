@@ -1,52 +1,149 @@
 <!DOCTYPE html>
-<html lang="no">
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nettbutikk</title>
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Sportfoten</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/Logo.png" alt="Logo">
-                </a>
-                
-
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Nyheter</a></li>
-                    <li><a href="#">Salg</a></li>
-                    <li><a href="#">Gavekort</a></li>
-                    <li><a href="#">Damesko</a></li>
-                    <li><a href="#">Herresko</a></li>
-                    <li><a href="#">Barnesko</a></li>
-                    <li><a href="#">Basketballsko</a></li>
-                    <li><a href="#">Løpesko</a></li>
-                    <li><a href="#">Fotballsko</a></li>
-                </ul>
-            </div>
-        </nav>
+      <ul class="top-links">
+        <li><a href="kundeservice.html">Kundeservice</a></li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+      <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        </h1>
+        <div class="search">
+          <input type="text" placeholder="Søk">
+          <button><img src="img/search.png" alt="Search Icon"></button>
+        </div>
+        <ul class="actions">
+          <li><a href="#"><img src="img/user.png" alt="User Icon"></a></li>
+          <li><a href="#"><img src="img/cart.png" alt="Cart Icon"></a></li>
+          <li><a href="#"><img src="img/heart.png" alt="Favorite Icon"></a></li>
+        </ul>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="categories">
+          <li><a href="#">Nyheter</a></li>
+          <li><a href="#">Salg</a></li>
+          <li><a href="#">Gavekort</a></li>
+          <li><a href="#">Damesko</a></li>
+          <li><a href="#">Herresko</a></li>
+          <li><a href="#">Barnesko</a></li>
+          <li><a href="#">Basketballsko</a></li>
+          <li><a href="#">Løpesko</a></li>
+          <li><a href="#">Fotballsko</a></li>
+        </ul>
+      </nav>
     </header>
-
     <main>
-        <section class="product">
-            <h2>Produkt 1</h2>
-            <p>Dette er produkt 1 beskrivelse.</p>
+      <a href="#">
+      <img class="chat" src="img/chat.png" alt="chat">
+      </a>
+      <a href="#" class="hoved-poster">
+        <section class="poster">
+          <h2>Hoved Poster</h2>
+          <p class="beskrivelse">Finn de perfekte sportskoene for din <br> 
+            aktive livsstil. Utforsk vårt bredt utvalg av <br> 
+            kvalitetssko laget for komfort, stil og ytelse.
+          </p>
         </section>
-
-        <section class="product">
-            <h2>Produkt 2</h2>
-            <p>Dette er produkt 2 beskrivelse.</p>
-        </section>
+      </a>
+      <ul class="prodects">
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="shoe">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="shoe">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="shoe">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="shoe">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="shoe">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+        <li>
+          <a href="produktside.html" class="product-link">
+            <section class="product-content">
+              <h2>Produkt 1</h2>
+              <img src="img/produkt1.png" alt="A beautiful image">
+              <p>Dette er produkt 1 beskrivelse.</p>
+              <p>Pris: 999.-</p>
+            </section>
+          </a>
+        </li>
+      </ul>
     </main>
-
-    <footer>
-        <p>&copy; 2023 Nettbutikk. Alle rettigheter reservert.</p>
+    <footer class="fa">
+      <article class="fl">
+        <h2>Snareveier</h2>
+        <ul>
+          <li><a href="#">Min side</a></li>
+          <li><a href="#">Orderoversikt</a></li>
+          <li><a href="#">Gavekort</a></li>
+          <li><a href="#">Personopplysninger</a></li>
+        </ul>
+      </article>
+      <article class="fl">
+        <h2>Informasjon</h2>
+        <ul>
+          <li><a href="#">Salgbetingilser</a></li>
+          <li><a href="#">Nytt på lager</a></li>
+          <li><a href="#">Merker/produsent</a></li>
+          <li><a href="#">Om Oss</a></li>
+        </ul>
+      </article>
+      <article class="fl">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="#">Kontakt Oss</a></li>
+          <li><a href="#">Spørsmål & svar</a></li>
+          <li><a href="#">Reklamasjon og garanti</a></li>
+        </ul>
+      </article>
+      <p>Designed by Mohammed Al-Ouda. Icons & Illustration by <a href="https://icons8.com" target="_blank">Icons8.com</a>.</p>
     </footer>
-</body>
+  </body>
 </html>
